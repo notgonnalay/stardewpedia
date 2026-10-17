@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="64" height="64" shape-rendering="crispEdges">
+  <!-- Fins / Mantle tip -->
+  <rect x="7" y="2" width="2" height="2" fill="#BA6878"/>
+  <rect x="5" y="3" width="6" height="2" fill="#BA6878"/>
+  <!-- Mantle body -->
+  <rect x="5" y="5" width="6" height="5" fill="#D97E90"/>
+  <rect x="6" y="5" width="4" height="4" fill="#F09EB0"/>
+  <!-- Eyes -->
+  <rect x="4" y="9" width="1" height="2" fill="#FFE082"/>
+  <rect x="11" y="9" width="1" height="2" fill="#FFE082"/>
+  <rect x="4" y="10" width="1" height="1" fill="#1A1A1A"/>
+  <rect x="11" y="10" width="1" height="1" fill="#1A1A1A"/>
+  <!-- Tentacles -->
+  <rect x="5" y="11" width="1" height="4" fill="#BA6878"/>
+  <rect x="7" y="11" width="1" height="5" fill="#D97E90"/>
+  <rect x="8" y="11" width="1" height="5" fill="#D97E90"/>
+  <rect x="10" y="11" width="1" height="4" fill="#BA6878"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="64" height="64" shape-rendering="crispEdges">
+  <!-- Orange / Yellow Stigma / Anther -->
+  <rect x="7" y="4" width="2" height="2" fill="#FFA726"/>
+  <!-- Petals -->
+  <rect x="5" y="3" width="2" height="4" fill="#9C27B0"/>
+  <rect x="9" y="3" width="2" height="4" fill="#9C27B0"/>
+  <rect x="6" y="5" width="4" height="4" fill="#BA68C8"/>
+  <rect x="7" y="6" width="2" height="3" fill="#E1BEE7"/>
+  <rect x="5" y="7" width="6" height="3" fill="#8E24AA"/>
+  <rect x="6" y="10" width="4" height="2" fill="#7B1FA2"/>
+  <!-- Stem -->
+  <rect x="7" y="12" width="2" height="3" fill="#4CAF50"/>
+  <rect x="6" y="13" width="1" height="2" fill="#81C784"/>
+</svg>

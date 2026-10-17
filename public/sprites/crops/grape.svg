@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="64" height="64" shape-rendering="crispEdges">
+  <!-- Vine / Tendril -->
+  <rect x="7" y="1" width="2" height="2" fill="#5BA836"/>
+  <rect x="9" y="1" width="3" height="1" fill="#8FD14F"/>
+  <rect x="5" y="2" width="2" height="1" fill="#3F7A32"/>
+  <!-- Grape cluster -->
+  <!-- Top row -->
+  <rect x="5" y="4" width="3" height="3" fill="#6B358F"/>
+  <rect x="8" y="4" width="3" height="3" fill="#8548AF"/>
+  <rect x="6" y="4" width="1" height="1" fill="#B378DE"/>
+  <!-- Middle row -->
+  <rect x="3" y="6" width="3" height="3" fill="#582977"/>
+  <rect x="6" y="6" width="4" height="4" fill="#6B358F"/>
+  <rect x="7" y="6" width="1" height="1" fill="#B378DE"/>
+  <rect x="10" y="6" width="3" height="3" fill="#8548AF"/>
+  <!-- Lower row -->
+  <rect x="5" y="9" width="3" height="3" fill="#582977"/>
+  <rect x="8" y="9" width="3" height="3" fill="#6B358F"/>
+  <!-- Tip -->
+  <rect x="7" y="12" width="2" height="3" fill="#461E61"/>
+</svg>

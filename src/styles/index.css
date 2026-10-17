@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Pixelify Sans', ui-monospace, monospace;
+  --font-sans: 'Nunito', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+@layer base {
+  :root {
+    /* Core Light Palette */
+    --bg: #EEF4FA;
+    --card: #FFFFFF;
+    --line: #B7D3CC;
+    --tx: #17323A;
+    --mu: #4B6870;
+    --pr: #1F6F78;
+    --po: #1F6F78;
+    --lk: #17565D;
+    --ib: #5E8F89; /* Accessible 3:1 input border */
+    --sp2: #CFE5E0; /* Sprite placeholder fill */
+    --pr-text: #FFFFFF;
+
+    /* Season Colors */
+    --season-spring: #3F7A32;
+    --season-spring-tx: #FFFFFF;
+    --season-summer: #F2C94C;
+    --season-summer-tx: #17323A;
+    --season-fall: #B5541C;
+    --season-fall-tx: #FFFFFF;
+    --season-winter: #4A5FA8;
+    --season-winter-tx: #FFFFFF;
+
+    /* Fonts */
+    --font-display: 'Pixelify Sans', ui-monospace, monospace;
+    --font-sans: 'Nunito', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  .dark {
+    /* Core Dark Palette */
+    --bg: #0F1E22;
+    --card: #172A2F;
+    --line: #2B474D;
+    --tx: #E6F1EF;
+    --mu: #9DB8B6;
+    --pr: #1F6F78;
+    --po: #6CCAD2;
+    --lk: #7FD3DA;
+    --ib: #6A9399; /* Accessible dark input border */
+    --sp2: #223A40;
+    --pr-text: #FFFFFF;
+  }
+
+  /* Seasonal Page Theming */
+  [data-season="spring"] {
+    --pr: #3F7A32;
+  }
+  [data-season="summer"] {
+    --pr: #F2C94C;
+    --pr-text: #17323A;
+  }
+  [data-season="fall"] {
+    --pr: #B5541C;
+  }
+  [data-season="winter"] {
+    --pr: #4A5FA8;
+  }
+
+  * {
+    border-color: var(--line);
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--tx);
+    font-family: var(--font-sans);
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+
+  /* Pixelated rendering utility for game sprites and brand sprout */
+  .pixelated {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+  }
+}

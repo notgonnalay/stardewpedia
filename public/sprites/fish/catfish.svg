@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="64" height="64" shape-rendering="crispEdges">
+  <!-- Whiskers -->
+  <rect x="1" y="8" width="3" height="1" fill="#4A3F35"/>
+  <rect x="2" y="10" width="2" height="1" fill="#4A3F35"/>
+  <!-- Body -->
+  <rect x="3" y="6" width="5" height="5" fill="#6E5D4F"/>
+  <rect x="7" y="7" width="5" height="4" fill="#5A4B3F"/>
+  <rect x="11" y="8" width="2" height="2" fill="#4A3F35"/>
+  <!-- Tail fin -->
+  <rect x="13" y="7" width="2" height="4" fill="#6E5D4F"/>
+  <rect x="14" y="6" width="1" height="6" fill="#8C7765"/>
+  <!-- Eye -->
+  <rect x="4" y="7" width="1" height="1" fill="#FFD54F"/>
+  <rect x="4" y="7" width="1" height="1" fill="#1A1A1A"/>
+  <!-- Belly -->
+  <rect x="4" y="10" width="6" height="1" fill="#C2B2A3"/>
+  <!-- Dorsal fin -->
+  <rect x="6" y="4" width="3" height="2" fill="#5A4B3F"/>
+</svg>

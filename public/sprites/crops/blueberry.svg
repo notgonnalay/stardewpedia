@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="64" height="64" shape-rendering="crispEdges">
+  <!-- Leaves / stems -->
+  <rect x="7" y="2" width="2" height="2" fill="#5BA836"/>
+  <rect x="9" y="1" width="3" height="2" fill="#8FD14F"/>
+  <!-- Berry 1 (main left) -->
+  <rect x="3" y="6" width="5" height="5" fill="#3A5FA8"/>
+  <rect x="4" y="5" width="3" height="7" fill="#3A5FA8"/>
+  <rect x="4" y="6" width="2" height="2" fill="#6B93E5"/>
+  <rect x="4" y="9" width="3" height="1" fill="#253E75"/>
+  <!-- Berry 2 (main right) -->
+  <rect x="8" y="7" width="5" height="5" fill="#3A5FA8"/>
+  <rect x="9" y="6" width="3" height="7" fill="#3A5FA8"/>
+  <rect x="9" y="7" width="2" height="2" fill="#6B93E5"/>
+  <rect x="9" y="10" width="3" height="1" fill="#253E75"/>
+  <!-- Berry 3 (top) -->
+  <rect x="6" y="4" width="4" height="3" fill="#2E4D8A"/>
+</svg>

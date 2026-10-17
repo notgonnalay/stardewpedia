@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="64" height="64" shape-rendering="crispEdges">
+  <!-- Snout / Head -->
+  <rect x="1" y="8" width="2" height="2" fill="#5C6F68"/>
+  <rect x="2" y="7" width="2" height="3" fill="#6B7D76"/>
+  <!-- Armoured scutes (ridges) -->
+  <rect x="5" y="5" width="2" height="1" fill="#A8BFB5"/>
+  <rect x="8" y="5" width="2" height="1" fill="#A8BFB5"/>
+  <rect x="11" y="6" width="2" height="1" fill="#A8BFB5"/>
+  <!-- Body -->
+  <rect x="4" y="6" width="7" height="4" fill="#4D5E57"/>
+  <rect x="4" y="7" width="8" height="2" fill="#6B7D76"/>
+  <rect x="4" y="9" width="7" height="2" fill="#A8BFB5"/>
+  <!-- Eye -->
+  <rect x="3" y="7" width="1" height="1" fill="#1C2622"/>
+  <!-- Heterocercal tail fin -->
+  <rect x="11" y="7" width="2" height="2" fill="#4D5E57"/>
+  <rect x="13" y="5" width="2" height="3" fill="#5C6F68"/>
+  <rect x="14" y="4" width="1" height="2" fill="#6B7D76"/>
+  <rect x="13" y="9" width="2" height="2" fill="#4D5E57"/>
+</svg>
