@@ -22,7 +22,7 @@ export function VillagersPage() {
         filterMarriage === null || villager.isMarriageable === filterMarriage
 
       const matchesSeason =
-        selectedSeason === 'all' || villager.birthday.season === selectedSeason
+        selectedSeason === 'all' || villager.birthday?.season === selectedSeason
 
       return matchesSearch && matchesMarriage && matchesSeason
     })
@@ -150,15 +150,21 @@ export function VillagersPage() {
                 </p>
 
                 {/* Birthday pill */}
-                <div className="mt-3 flex items-center gap-2">
-                  <span className="text-xs font-bold text-[var(--mu)]">Birthday:</span>
-                  <div className="inline-flex items-center gap-1.5">
-                    <SeasonBadge season={villager.birthday.season} size="sm" />
-                    <span className="text-xs font-mono font-bold text-[var(--tx)] bg-[var(--sp2)] px-1.5 py-0.5 rounded">
-                      Day {villager.birthday.day}
-                    </span>
+                {villager.birthday ? (
+                  <div className="mt-3 flex items-center gap-2">
+                    <span className="text-xs font-bold text-[var(--mu)]">Birthday:</span>
+                    <div className="inline-flex items-center gap-1.5">
+                      <SeasonBadge season={villager.birthday.season} size="sm" />
+                      <span className="text-xs font-mono font-bold text-[var(--tx)] bg-[var(--sp2)] px-1.5 py-0.5 rounded">
+                        Day {villager.birthday.day}
+                      </span>
+                    </div>
                   </div>
-                </div>
+                ) : (
+                  <div className="mt-3 flex items-center gap-2 text-xs text-[var(--mu)]">
+                    <span className="font-bold">Status:</span> Special Character (No Birthday)
+                  </div>
+                )}
 
                 {/* Loved Gifts List */}
                 <div className="mt-4 pt-3 border-t border-[var(--line)]/60">
